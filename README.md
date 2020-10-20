@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=sos
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sos-feedstock/blob/master/LICENSE.txt)
 
 Summary: Search contributed R packages, sort by package.
-
-
 
 Current build status
 ====================
