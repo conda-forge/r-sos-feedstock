@@ -1,4 +1,4 @@
-{% set version = "2.1-4" %}
+{% set version = "2.1-7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sos_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sos/sos_{{ version }}.tar.gz
-  sha256: 37b5f8421791647ee92eec500c4163db59e4ed23f5ed5722f13313db2abd4861
+  sha256: 06ebb159f2807fbf7335b1551fdc11d4fd985dcc2ead5f2dc8dff691394a0687
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
